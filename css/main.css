@@ -1,0 +1,157 @@
+/*************** Base Styles ***********/
+body {
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+header, #bottom-section {
+	height: 100px;
+	margin: 0 auto;
+}
+
+header, h2, h3 {
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 16px;
+}
+
+/****************  GRID ***************/
+.full-width {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 50%;
+	float: left;
+}
+
+/***************** Header *************/
+
+/* Name Styling */
+header h1 {
+	padding: 20px 0;
+	font-size: 30px;
+}
+header h1 span {
+	color: #77a466;
+}
+
+/* Navigation Bar */
+nav {
+    float: right; 
+    padding: 25px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+	font-weight: bold;
+    font-size: 18px;
+    color: #77a466;
+    padding-left: 20px; 
+}
+
+
+/****************** Main Section ************/
+#top-section, #bottom-section, footer {
+	width: 100%; 
+	margin: 0 auto; 
+	clear: both;
+}
+
+/*******Top Section **************/
+#top-img {
+	width: 100%; 
+	height: auto; 
+	float: left;
+}
+#top-img img {
+	border-top: 5px solid #77a466;
+	border-bottom: 5px solid #77a466;
+}
+
+#top-content {
+	width: 100%; 
+	height: auto; 
+	float: left;
+	padding: 10px 0;
+}
+
+#top-content h2 {
+	color: #77a466;
+	font-size: 18px;
+	font-weight: bold;
+}
+#top-content p {
+	line-height: 25px; 
+	font-size: 16px;
+}
+
+/*******Bottom Section **************/
+#bottom-section {
+		border-top: 1px solid #dedbdc;
+}
+
+#first-column, #second-column, #third-column {
+	width: 31%;
+	float: left;
+	height: auto; 
+
+	padding: 10px;
+}
+
+#first-column {
+	padding-left: 0px;
+}
+
+#first-column, #second-column {
+	border-right: 1px solid #dedbdc;
+}
+
+#menu {
+	list-style: none;
+	padding: 0px;
+}
+#menu li {
+	padding: 10px 0px; 
+	color:#77a466;
+	font-size: 16px;
+}
+
+#second-column, #third-column {
+	padding: 8px 15px;
+	line-height: 21px;
+}
+
+/*******Footer***********************/
+footer .full-width {
+	border-top: 1px solid #dedbdc;
+
+	width: 100%; 
+	height: 50px; 
+	margin: 0 auto; 
+	clear: both; 
+	text-align: center;
+}
+footer p {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+footer p span {
+	font-family: 'Merienda One', cursive;
+	color:#77a466;
+	font-size: 18px;
+}
